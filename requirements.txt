@@ -1,0 +1,11 @@
+gradio
+diffusers
+transformers
+torch
+torchvision
+accelerate
+fastapi
+flask
+uvicorn
+Pillow
+pydantic
