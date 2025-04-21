@@ -11,7 +11,11 @@ Here is an example of an X-ray image generated from a textual description:
 
 
 
-To run this project, take the notebook, head to Colab, and train the model. We made it easy for you to start from, you will find a Header called `Fine Tunning Diffusion Model (Approach3) start from there and download the model after it
+To run this project, open the provided notebook in Google Colab. Training begins under the section titled 
+"Fine-Tuning Diffusion Model (Approach 3)". 
+Simply start from that section to begin the fine-tuning process. Once training is complete, you can download the resulting model directly from the notebook.
+
+
 ---
 
 ## How to start (Repo Clone)
@@ -54,15 +58,15 @@ Once the container is running, navigate to your browser at `http://localhost:850
 
 ## Approaches Implemented
 
-### ✅ 1. GAN-Based Image Generation
+### 1. GAN-Based Image Generation
 - We trained a **custom GAN** on X-ray image datasets using text embeddings as input.
 - Results were limited in detail and resolution but served as a useful baseline.
 
-### ✅ 2. Enhanced GAN (with attention / conditional GANs)
+### 2. Enhanced GAN (with attention / conditional GANs)
 - Introduced **attention mechanisms** and **conditional input** improvements.
 - Produced better structure but still lacked fidelity in fine medical details.
 
-### ✅ 3. Stable Diffusion Fine-Tuning *(Best Results)*
+### 3. Stable Diffusion Fine-Tuning *(Best Results)*
 - Fine-tuned the **Stable Diffusion model** on a labeled X-ray dataset.
 - Achieved the **highest quality and most medically coherent results**.
 - Capable of generating detailed chest, limb, or dental X-rays from precise descriptions.
