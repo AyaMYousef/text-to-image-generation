@@ -11,7 +11,7 @@ Here is an example of an X-ray image generated from a textual description:
 
 
 
-To fully localy run this project , take the notebook , head to Colab and train the model , we made it easy for you where to start from , you will find a Header called `Fine Tunning Diffusion Model (Approach3)` start from there and download the model after it
+To run this project, take the notebook, head to Colab, and train the model. We made it easy for you to start from, you will find a Header called `Fine Tunning Diffusion Model (Approach3) start from there and download the model after it
 ---
 
 ## How to start (Repo Clone)
