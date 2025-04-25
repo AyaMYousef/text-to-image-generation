@@ -9,3 +9,5 @@ flask
 uvicorn
 Pillow
 pydantic
+ollama
+agno

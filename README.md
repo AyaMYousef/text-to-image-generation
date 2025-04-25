@@ -40,7 +40,11 @@ For Fastapi:
 `python xray_inference_api.py`
 
 ---
+To use the Chatbot , you will have to install Ollama , you can install ollama from here : ` https://ollama.com/ `
+after setting it up , use this command to install the llm : ` ollama run llama3.2 `
 
+if you are not willing to install it , then please just comment the get_agent_response function
+---
 ## Docker Startup
 
 1. A `Dockerfile` is provided to containerize the application. You can use it to build a production-ready image.
@@ -49,9 +53,9 @@ For Fastapi:
 `docker build -t xraygen:v1.0 .`
 
 3. Run the Docker container:  
-`docker run -d -p 8501:8501 xraygen:v1.0`
+`docker run -d -p 8501:8501 -p 7860:7860 xraygen:v1.0`
 
-Once the container is running, navigate to your browser at `http://localhost:8501` to access the application.
+Once the container is running, navigate to your browser at `http://localhost:7860` to access the application.
 
 ---
 

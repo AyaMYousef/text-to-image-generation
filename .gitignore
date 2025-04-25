@@ -1,5 +1,6 @@
 wandb/
 mlruns/
 __pycache__/
+tmp/
 Stable-diffusion-finetuned/
 wandb.zip
