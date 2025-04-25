@@ -4,3 +4,4 @@ __pycache__/
 tmp/
 Stable-diffusion-finetuned/
 wandb.zip
+test.ipynb
