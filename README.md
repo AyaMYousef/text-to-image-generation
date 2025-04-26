@@ -1,6 +1,11 @@
 # X-Ray Text-to-Image Generation
 
-This project explores the fascinating domain of generating **X-ray medical images from textual descriptions**, using generative models. We implement and compare three different approaches, including **GAN-based techniques** and **diffusion models**, with the most successful being **fine-tuning Stable Diffusion** on a custom dataset.
+# Aim
+This project aims to deepen the understanding of synthetic data generation in medical imaging and to establish effective strategies for leveraging these synthetic images in classification and segmentation tasks, especially under data-limited conditions.
+
+Explore the fascinating domain of generating X-ray medical images from textual descriptions using generative models. 
+Three different approaches are implemented and compared, including GAN-based techniques and diffusion models, 
+with the most successful method being fine-tuning Stable Diffusion on a custom dataset.
 
 ---
 Here is an example of an X-ray image generated from a textual description:
